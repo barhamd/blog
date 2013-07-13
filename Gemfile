@@ -23,8 +23,11 @@ end
 
 gem 'jquery-rails'
 
+#Temporary until I can get postgres to work on the server.
+gem 'sqlite3'
+
 group :development do
-  gem 'sqlite3'
+#  gem 'sqlite3'
 end
 
 # To use ActiveModel has_secure_password
